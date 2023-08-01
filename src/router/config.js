@@ -10,8 +10,8 @@ export const mainRouter = [
     meta: {},
     children: [
       {
-        path: 'mainPage',
-        name: 'mainPage',
+        path: '/',
+        name: '/',
         meta: {},
         props: true,
         component: () => import('@/views/mainPage.vue'),
