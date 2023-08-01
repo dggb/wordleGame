@@ -1,8 +1,8 @@
 <template>
-  <div id="abcde">    
+  <div>    
     <v-row>
-      <v-col cols="3"></v-col>
-      <v-col cols="6">
+      <v-col class="col_sub"></v-col>
+      <v-col class="col_body">
         <v-card style="width:100%;">     
           <div class="card-header">
             World 게임 (정답 고정)
@@ -41,7 +41,7 @@
           </div>
         </div>
       </v-col>
-      <v-col cols="3"></v-col>
+      <v-col class="col_sub"></v-col>
     </v-row>
   </div>
   

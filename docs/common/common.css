@@ -83,13 +83,18 @@
 }
 
 @media (min-width:300px) {
+  .card-header{
+    font-size: 13px;
+  }
+
   .boxCss{
     width: 30px;
     height: 30px;
+    font-size:22px;
   }  
 
   .dataTable{
-    width: 200px;
+    width: 175px;
   }
 
   .keyboard{
@@ -102,9 +107,22 @@
     height: 1.5em;
     line-height: 1.2em;
   }
+
+  .col_sub{
+    flex: 0 0 15% !important;
+    max-width: 15% !important;
+  }
+
+  .col_body{
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+  }
 }
 
-@media (min-width:720px) {
+@media (min-width:700px) {
+  .card-header{
+    font-size: 22px;
+  }
   .boxCss{
     width: 40px;
     height: 40px;
@@ -123,6 +141,16 @@
   .keyboard-sub{
     height: 1.5em;
     line-height: 1.5em;
+  }
+
+  .col_sub{
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
+
+  .col_body{
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
   }
 }
 
@@ -145,5 +173,15 @@
   .keyboard-sub{
     height: 2em;
     line-height: 2em;
+  }
+
+  .col_sub{
+    flex: 0 0 16% !important;
+    max-width: 16% !important;
+  }
+
+  .col_body{
+    flex: 0 0 68% !important;
+    max-width: 68% !important;
   }
 }
