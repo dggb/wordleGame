@@ -12,9 +12,9 @@
       </v-col>
       <v-col cols="3"></v-col>
     </v-row>
-    <v-row v-show="answer_i">
-      <v-col cols="3"></v-col>
-      <v-col cols="6">
+    <v-row v-show="answer_i" style="margin: 0px;">
+      <v-col class="col_sub"></v-col>
+      <v-col class="col_body">
         <v-card style="width:100%;">     
           <div class="card-header" style="background-color:#4caf50">
             World 게임 (정답 입력)
@@ -30,7 +30,7 @@
                     color=""
                     style="text-align: initial;color: whitesmoke;font-size: 20px;font-weight: bold;background-color: lightslategrey;"
                   >도움말</v-toolbar>
-                  <v-card-text style="width: 420px;text-align:left">
+                  <v-card-text class="helpBody">
                     <h1 class="helpHeader">게임 방법</h1>
                     <br>
                     <p>
@@ -108,7 +108,7 @@
           </div>
         </div>
       </v-col>
-      <v-col cols="3"></v-col>
+      <v-col class="col_sub"></v-col>
     </v-row>
     
   </div>

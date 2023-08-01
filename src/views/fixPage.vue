@@ -1,6 +1,6 @@
 <template>
   <div>    
-    <v-row>
+    <v-row style="margin: 0px;">
       <v-col class="col_sub"></v-col>
       <v-col class="col_body">
         <v-card style="width:100%;">     
@@ -18,7 +18,7 @@
                     color=""
                     style="text-align: initial;color: whitesmoke;font-size: 20px;font-weight: bold;background-color: lightslategrey;"
                   >도움말</v-toolbar>
-                  <v-card-text style="width: 420px;text-align:left">
+                  <v-card-text class="helpBody">
                     <h1 class="helpHeader">게임 방법</h1>
                     <br>
                     <p>
