@@ -28,7 +28,7 @@
                   </template>
                 </template>
             </div>
-            <div v-if="gameOver_i">
+            <div v-if="gameOver_i" class="fontCss">
                 <h1 style="text-align:center;">
                   게임이 끝났습니다. <br>
                   정답 : {{answer_i}} <br>

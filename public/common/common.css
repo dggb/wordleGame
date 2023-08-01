@@ -117,6 +117,10 @@
     flex: 0 0 90% !important;
     max-width: 90% !important;
   }
+
+  .fontCss{
+    font-size : 10px;
+  }
 }
 
 @media (min-width:700px) {
