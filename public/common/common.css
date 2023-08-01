@@ -1,0 +1,82 @@
+.boxCss {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgrey;
+  width: 60px;
+  height: 60px;
+  margin: 2.5px;
+}
+
+.answer {
+  color: white;
+  border-color: white;
+  background-color: #619978 !important;
+}
+
+.have_word {
+  color: white;
+  border-color: white;
+  background-color: #C9B458;
+}
+
+.wrong {
+  color: white;
+  border-color: white;
+  background-color: #8d8f91;
+}
+
+.card-header {
+  text-align: initial;
+  padding: 0.4rem 1.25rem;
+  color: whitesmoke;
+  background-color: rgba(35, 73, 144);
+  font-size: 20px;
+  border-bottom: 1px solid rgba(26, 54, 126, 0.125);
+  font-weight: bold;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  text-align: initial;
+  overflow-y: auto;
+}
+
+.dataTable {
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+
+.keyboard{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border: 1px solid black;
+  margin: 0.1em;
+  user-select: none;
+  cursor: pointer;
+} 
+
+.keyboard:hover{
+  background-color: lightgray; 
+}
+
+.keyboard-sub{
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  border: 1px solid black;
+  margin: 0.1em;
+  user-select: none;  
+  cursor: pointer;    
+}
+
+.keyboard-sub:hover{
+  background-color: lightgray; 
+}
