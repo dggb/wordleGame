@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwordlegame"]=self["webpackChunkwordlegame"]||[]).push([[727],{1727:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var r=function(){var e=this,t=e._self._c;return t("div")},u=[],a={data(){return{}},created(){},mounted(){},methods:{}},l=a,d=n(1001),s=(0,d.Z)(l,r,u,!1,null,"377f2006",null),c=s.exports}}]);
+//# sourceMappingURL=727.39b77064.js.map
