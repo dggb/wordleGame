@@ -1,3 +1,4 @@
+
 .boxCss {
   color: black;
   font-size: 36px;
@@ -79,4 +80,70 @@
 
 .keyboard-sub:hover{
   background-color: lightgray; 
+}
+
+@media (min-width:300px) {
+  .boxCss{
+    width: 30px;
+    height: 30px;
+  }  
+
+  .dataTable{
+    width: 200px;
+  }
+
+  .keyboard{
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.2em;
+  }
+
+  .keyboard-sub{
+    height: 1.5em;
+    line-height: 1.2em;
+  }
+}
+
+@media (min-width:720px) {
+  .boxCss{
+    width: 40px;
+    height: 40px;
+  }  
+
+  .dataTable{
+    width: 230px;
+  }
+
+  .keyboard{
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .keyboard-sub{
+    height: 1.5em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width:1000px) {
+  .boxCss{
+    width: 60px;
+    height: 60px;
+  }  
+
+  .dataTable{
+    width: 330px;
+  }
+
+  .keyboard{
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+  }
+
+  .keyboard-sub{
+    height: 2em;
+    line-height: 2em;
+  }
 }
