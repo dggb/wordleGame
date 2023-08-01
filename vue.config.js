@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: '/wordlegame/mainPage',
+  publicPath: '/wordlegame/',
   outputDir: 'docs',
   transpileDependencies: true
 })
