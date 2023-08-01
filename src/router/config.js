@@ -6,7 +6,7 @@ export const mainRouter = [
   {
     path: '/',    
     component: DefaultLayout,
-    redirect: '/mainPage',
+    redirect: '/',
     meta: {},
     children: [
       {
