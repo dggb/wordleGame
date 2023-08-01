@@ -88,34 +88,34 @@
   }
 
   .boxCss{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     font-size:22px;
   }  
 
   .dataTable{
-    width: 175px;
+    width: 230px;
   }
 
   .keyboard{
-    width: 1.5em;
-    height: 1.5em;
-    line-height: 1.2em;
+    width: 1.6em;
+    height: 1.6em;
+    line-height: 1.6em;
   }
 
   .keyboard-sub{
-    height: 1.5em;
-    line-height: 1.2em;
+    height: 1.6em;
+    line-height: 1.6em;
   }
 
   .col_sub{
-    flex: 0 0 15% !important;
-    max-width: 15% !important;
+    flex: 0 0 5% !important;
+    max-width: 5% !important;
   }
 
   .col_body{
-    flex: 0 0 70% !important;
-    max-width: 70% !important;
+    flex: 0 0 90% !important;
+    max-width: 90% !important;
   }
 }
 
